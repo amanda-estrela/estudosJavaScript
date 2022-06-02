@@ -9,10 +9,32 @@ body{
     color: #FF5D5D;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
-
+ body *{
+    margin-bottom: 2em;
+}
 .title {
+    margin-top: 30px;
     color:#2F8F9D;
     font-weight: bold;
+    text-decoration: underline;
 }
 
+button {
+    min-width: 70px;
+    border-radius: 10px;
+    border-color: #FF5D5D;
+    color: #ff5d5d;
+    background-color: #eec4c4;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 2px 2px 5px#FFA1A1;
+}
+
+.current-number {
+    font-size: 3em;
+}
