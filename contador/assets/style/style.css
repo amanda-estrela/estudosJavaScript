@@ -12,8 +12,14 @@ body{
     display: flex;
     flex-direction: column;
 }
+
  body *{
     margin-bottom: 2em;
+}
+
+body *::selection{
+    background-color: #F24A72;
+    color: white;
 }
 .title {
     margin-top: 30px;
@@ -29,6 +35,7 @@ button {
     color: #ff5d5d;
     background-color: #eec4c4;
     cursor: pointer;
+    user-select: none;
 }
 
 button:hover{
